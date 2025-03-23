@@ -1,4 +1,4 @@
-class Ecologica 
+class Ecologico 
 {
     consumo()
     {
@@ -28,7 +28,7 @@ class Estandar
         return new Deportivo();
     }
 }
-class Ecologica 
+class Deportivo
 {
     consumo()
     {
@@ -40,6 +40,7 @@ class Ecologica
     }
     siguiente()
     {
-        return new Ecologica();
+        return new Ecologico();
     }
 }
+Module.exports = {Ecologico, Estandar, Deportivo};
