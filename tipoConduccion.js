@@ -1,33 +1,45 @@
-class Ecologica {
-    consumo(){
+class Ecologica 
+{
+    consumo()
+    {
         return 16;
     }
-    velocidadMaxima(){
+    velocidadMaxima()
+    {
         return 120;
     }
-    siguiente(){
+    siguiente()
+    {
         return new Estandar();
     }
 }
-class Estandar {
-    consumo(){
+class Estandar 
+{
+    consumo()
+    {
         return 10;
     }
-    velocidadMaxima(){
+    velocidadMaxima()
+    {
         return 150;
     }
-    siguiente(){
+    siguiente()
+    {
         return new Deportivo();
     }
 }
-class Ecologica {
-    consumo(){
+class Ecologica 
+{
+    consumo()
+    {
         return 5;
     }
-    velocidadMaxima(){
+    velocidadMaxima()
+    {
         return 200;
     }
-    siguiente(){
+    siguiente()
+    {
         return new Ecologica();
     }
 }
