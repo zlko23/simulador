@@ -31,15 +31,17 @@ La simulación a modelar es avanzar indicandole una cantidad de kilómetros a re
 - Restar del combustible la cantidad consumida para recorrer la distancia solicitada.
 - Sumar los kilómetros recorridos al kilometraje total.
 - Si el combustible no es suficiente para recorrer la distancia solicitada, el vehículo avanzará hasta donde le alcance el combustible, actualizará sus atributos correspondientes (combustible y kilometraje) e informará con un error que no pudo completar el recorrido solicitado con el siguiente mensaje: 
-    "Combustible insuficiente, solo pude recorrer X del total de Y kilometros.";
+    > *""Combustible insuficiente, solo pude recorrer X del total de Y kilometros.";"*
 
 
 Test
+
 1
 Crear un vehículo con 25 Litros de combustible.
 Cambiar una vez el tipo de conducción
 Avanzar 200 kilómetros
 Verificar que el auto queden con 200.0 kilomentros y con 5.0 litros de combustible.
+
 2
 Crear un vehículo con 13 Litros de combustible.
 Cambiar dos veces el tipo de conducción
