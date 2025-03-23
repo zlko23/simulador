@@ -23,6 +23,9 @@ class Vehiculo
         this.combustible -= Math.max(this.combustible, combustibleNecesario);
     
     if (kilometrosPosibles < km)
-        "Combustible insuficiente, solo pude recorrer X del total de Y kilometros";
+        throw new Error
+        (
+            'Combustible insuficiente, solo pude recorrer ${this.kilometrosPosibles} del total de ${this.km} kilometros'
+        );
     }
 }
