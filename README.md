@@ -34,16 +34,16 @@ La simulación a modelar es avanzar indicandole una cantidad de kilómetros a re
     > *"Combustible insuficiente, solo pude recorrer X del total de Y kilometros.";*
 
 
-Test
+### Test
 
-1
-<Crear un vehículo con 25 Litros de combustible.>
-<Cambiar una vez el tipo de conducción>
-<Avanzar 200 kilómetros>
-<Verificar que el auto queden con 200.0 kilomentros y con 5.0 litros de combustible.>
+ 1
+1.1_ Crear un vehículo con 25 Litros de combustible.
+1.2_ Cambiar una vez el tipo de conducción.
+1.3_ Avanzar 200 kilómetros.
+1.4_ Verificar que el auto queden con 200.0 kilomentros y con 5.0 litros de combustible.
 
-2
-Crear un vehículo con 13 Litros de combustible.
-Cambiar dos veces el tipo de conducción
-Avanzar 75 kilómetros
-Verificar que se produjo la RuntimeException "Combustible insuficiente, solo pude recorrer 65 del total de 75.0 kilometros." y que el auto queden con 65.0 kilomentros y con 0.0 litros de combustible.
+ 2
+2.1_ Crear un vehículo con 13 Litros de combustible.
+2.2_ Cambiar dos veces el tipo de conducción.
+2.3_ Avanzar 75 kilómetros
+2.4_ Verificar que se produjo la RuntimeException "Combustible insuficiente, solo pude recorrer 65 del total de 75.0 kilometros." y que el auto queden con 65.0 kilomentros y con 0.0 litros de combustible.
